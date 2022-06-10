@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  height: 50px;
+  background: #2c2c32;
+}
+
+.navbar span {
+  color: white;
+}
+
+#logo {
+  width: 20px;
+  height: 20px;
+}
+
+.search {
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 0;
+  height: 50px;
+}
+
+.s-btn {
+  background-color: #0066b8;
+  color: white;
+  border-radius: 0;
+}
+
+.main-wrapper {
+  background-color: #2c2c32;
+  padding-bottom: 60px;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-btn {
+  width: 240px;
+  height: 4rem;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: #0066b8;
+}
+
+.hero-drop {
+  height: 4rem;
+  width: 50px;
+  margin-left: 5px;
+  color: white;
+  text-decoration: none;
+  background-color: #0066b8;
+}
+
+.link-wrapper {
+  width: 300px;
+  padding: 20px;
+  background: #25252b;
+  border-radius: 5px;
+}
+
+.s-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 250px;
+  height: 130px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.card h4 {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.card:hover {
+  background-color: #e6e6e6;
+}
+.carousel {
+  margin-top: 50px;
+  background-color: #eeeeee;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.user-card {
+  width: 400px;
+  height: 190px;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+.profile {
+  width: 5.2rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.user-wrapper {
+  padding-left: 80px;
+}
+
+.card-text {
+  padding-left: 10px;
+}
+
+.user-name {
+  margin-left: 10px;
+}
+
+.images-wrapper {
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.sec-image {
+  width: 400px;
+  height: 250px;
+}
+
+.lang {
+  width: 30px;
+  height: 30px;
+}
+
+.getnow {
+  background-color: #0066b8;
+  margin-top: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  width: 300px;
+  height: 60px;
+}
+
+.downloads {
+  margin-top: 150px;
+}
+
+.os-img {
+  height: 100px;
+  width: 100px;
+}
+
+.d-btn {
+  color: #fff;
+  margin: 20px 0 5px;
+  outline: none;
+  border: none;
+  padding: 10px 0;
+  font-size: 15px;
+  height: 70px;
+  width: 240px;
+  background-color: #0066b8;
+}
+footer p{
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 385px) {
+  
+    .hero-btn{
+      width: 184px;
+    }
+  
+}
